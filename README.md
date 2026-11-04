@@ -32,10 +32,8 @@ There is no backend, database, analytics, external API, or build dependency.
 ```text
 .
 ├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
+├── style.css
+├── script.js
 └── README.md
 ```
 
@@ -60,7 +58,7 @@ Open `index.html` in a modern browser. To test features that require a secure co
 4. Choose the branch and the root folder (`/`), then save.
 5. Open the URL provided by GitHub Pages after deployment.
 
-CSS and JavaScript use relative paths, so the app also works from a GitHub Pages project subpath.
+CSS and JavaScript are stored alongside `index.html` and use relative paths, so the app works from a GitHub Pages project subpath.
 
 ## Screenshots
 
